@@ -1,8 +1,4 @@
-$lightColor1: #FAEDCD;
-$lightColor2: #f8de7c;
-$darkColor1: #826A57;
-$darkColor2: #665C56;
-$darkColor3: #C5913F;
+@import 'variables';
 
 header {
   margin: 0 auto;
@@ -27,6 +23,26 @@ header {
         font-weight: bold;
         &:hover {
           background-color: $darkColor3;
+        }
+      }
+    }
+  }
+  #social {
+    ul {
+      padding: 0;
+      li {
+        width: 50px;
+        height: 25px;
+        text-align: center;
+        background-color: $darkColor3;
+        margin-top: 5px;
+        list-style: none;
+        font-size: 1.3rem;
+        &:hover {
+          background-color: #202020;
+        }
+        #{$a-tags} {
+          color: $lightColor1;
         }
       }
     }

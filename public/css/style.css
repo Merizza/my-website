@@ -22,6 +22,20 @@ header {
         font-weight: bold; }
         header nav ul li:hover {
           background-color: #C5913F; }
+  header #social ul {
+    padding: 0; }
+    header #social ul li {
+      width: 50px;
+      height: 25px;
+      text-align: center;
+      background-color: #C5913F;
+      margin-top: 5px;
+      list-style: none;
+      font-size: 1.3rem; }
+      header #social ul li:hover {
+        background-color: #202020; }
+      header #social ul li a, header #social ul li a:active, header #social ul li a:visited {
+        color: #FAEDCD; }
   header .container {
     height: 100%;
     width: 100%;
