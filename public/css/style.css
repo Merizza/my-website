@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css?family=Lato|Sail");
+header {
+  margin: 0 auto;
+  width: 100%;
+  height: 875px;
+  background-color: #202020; }
+  header nav {
+    height: 50px;
+    width: 80%;
+    margin: 0 auto;
+    border-bottom: 3px solid #C5913F; }
+    header nav ul {
+      margin: 0;
+      padding: 15px 0;
+      width: 100%;
+      list-style: none;
+      line-height: 20px;
+      text-align: center; }
+      header nav ul li {
+        display: inline-block;
+        width: calc(80% / 5);
+        font-weight: bold; }
+        header nav ul li:hover {
+          background-color: #C5913F; }
+  header .container {
+    height: 100%;
+    width: 100%;
+    text-align: center; }
+    header .container img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      margin-top: 200px; }
+    header .container section {
+      box-sizing: content-box;
+      height: 150px;
+      line-height: 50%; }
+      header .container section h1, header .container section h2 {
+        margin: 0 auto; }
+      header .container section h1 {
+        line-height: 50px; }
+      header .container section h2 {
+        font-size: 3rem;
+        color: #C5913F;
+        letter-spacing: 3px;
+        width: 30%;
+        line-height: 90px;
+        border: 5px solid #C5913F; }
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  background-color: #665C56;
+  color: #FAEDCD;
+  font-family: "Lato"; }
+
+/*# sourceMappingURL=style.css.map */
