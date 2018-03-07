@@ -128,6 +128,7 @@ header {
           background-color: transparent;
           transform: translateX(-50%); }
           #projects .container ul li .inner-box:hover {
+            padding: 5% 0;
             color: #FAEDCD;
             background-color: #202020;
             opacity: 0.8; }

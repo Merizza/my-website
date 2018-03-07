@@ -40,6 +40,7 @@
           background-color: transparent;
           transform: translateX(-50%);
           &:hover {
+            padding: 5% 0;
             color: $lightColor1;
             background-color: #202020;
             opacity: 0.8;
