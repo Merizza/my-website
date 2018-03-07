@@ -1,12 +1,7 @@
 #about {
-  width: 100%;
-  height: 875px;
   background-color: $darkColor3;
   h1 {
-    margin: 0;
-    text-transform: uppercase;
-    text-align: center;
-    padding-top: 5%;
+    @include heading;
   }
   #content {
     width: 95%;
