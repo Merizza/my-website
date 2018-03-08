@@ -7,6 +7,7 @@
 @import "partials/projects";
 @import "partials/blog";
 @import "partials/contact";
+@import "partials/footer";
 
 body,
 html {
@@ -21,86 +22,3 @@ html {
   width: 100%;
   height: 875px;
 }
-
-//.container {
-//    margin: 1% auto;
-//    width: 95%;
-//    height: auto;
-//    z-index: 1;
-//    
-//}
-////.image {
-////    width: calc(95% /2);
-////    height: 500px;
-////    background: $darkColor3;
-////    position: absolute;
-////    left: 50%;
-////}
-//
-//.layer {
-//    @extends .container;
-//    position: absolute;
-//    width: 47.5%;
-//    height: 500px;
-//    background: $darkColor2;
-//    opacity: 0.8;
-//}
-//
-//header {
-//    width: 100%;
-//    height: 500px;
-//    
-//    h1{
-//        position: absolute;
-//        top: 23%;
-//        //left: 5%;
-//        width: 200px;
-//        height: 50px;
-//        margin-top: -150px;
-//        //margin-left: -100px;
-//        text-align: center;
-//        font-family: 'lato', cursive;
-//        font-size: 1.5rem;
-//        letter-spacing: 2px;
-//    }
-//    
-//    nav {
-//        position: absolute;
-//        width: 95%;
-//        height: 55px;
-//        top: 50%;
-//        left: 50%;
-//        margin-left: -47.5%;
-//        border-top: 3px solid $lightColor1;
-//        border-bottom: 3px solid $lightColor1;
-//        background: $lightColor1;
-//        
-//        ul {
-//            padding: 0;
-//            width: 100%;
-//            height: 40px;
-//            margin: 5px auto;
-//            display: flex;
-//            justify-content: space-around;
-//            align-items: center;
-//            box-shadow: 0 4px 2px rgba(0,0,0,.8);
-////            border-bottom: 2px solid $darkColor3;
-////            border-top: 2px solid $darkColor3;
-//            background-color: $darkColor3;
-//            color: $lightColor1;
-//            
-//           li {
-//            float: left;
-//            list-style: none;
-//            font-size: 1.1rem;
-//            padding: 7px;
-//            } 
-//        }
-//    }
-//}
-//
-
-
-
-
-

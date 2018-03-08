@@ -197,6 +197,7 @@ header {
               color: #202020; }
 
 #contact {
+  position: relative;
   background-color: #C5913F; }
   #contact h1 {
     margin: 0;
@@ -236,6 +237,55 @@ header {
         color: #FAEDCD;
         font-weight: bold; }
         #contact .container form #submit:hover {
+          color: #C5913F; }
+
+#footer {
+  text-align: center;
+  width: 100%;
+  height: 15%;
+  background-color: #FAEDCD;
+  color: #202020;
+  position: absolute;
+  bottom: 0; }
+  #footer #links {
+    position: absolute;
+    left: 5%; }
+    #footer #links ul {
+      padding: 0;
+      width: 500px; }
+      #footer #links ul li {
+        margin-bottom: 2%;
+        border-left: 1px solid #202020;
+        width: 80px;
+        list-style: none;
+        float: left; }
+        #footer #links ul li:last-child {
+          border-right: 1px solid black; }
+        #footer #links ul li:hover {
+          color: #C5913F; }
+  #footer p {
+    padding-top: 5%; }
+  #footer #footer-social {
+    position: absolute;
+    width: 400px;
+    top: 0;
+    right: 0; }
+    #footer #footer-social ul {
+      height: auto; }
+      #footer #footer-social ul li {
+        padding-top: 0;
+        margin-right: 10px;
+        border-radius: 50%;
+        background-color: #202020;
+        list-style: none;
+        float: left;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 1.3rem; }
+        #footer #footer-social ul li a, #footer #footer-social ul li a:active, #footer #footer-social ul li a:visited {
+          color: #FAEDCD; }
+        #footer #footer-social ul li a:hover {
           color: #C5913F; }
 
 body,
