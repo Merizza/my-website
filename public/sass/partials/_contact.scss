@@ -1,0 +1,46 @@
+#contact {
+  background-color: $darkColor3;
+  h1 {
+    @include heading;
+  }
+  .container {
+    margin: 10% 0;
+    height: 60%;
+    form {
+      width: 500px;
+      margin-left: 10%;
+      div input {
+        height: 30px;
+        width: 70%;
+        margin-bottom: 10px;
+        border: none;
+        border-bottom: 3px solid #202020;
+        background: $darkColor3;
+        outline: none;
+      }
+      ::placeholder{
+        color: $lightColor1;
+      }
+      div textarea {
+        margin-top: 20px;
+        width: 70%;
+        border: none;
+        background-color: #202020;
+        color: $lightColor1;
+      }
+      #submit {
+        margin-top: 20px;
+        width: 100px;
+        height: 30px;
+        border: none;
+        border-radius: 5px;
+        background-color: #202020;
+        color: $lightColor1;
+        font-weight: bold;
+        &:hover {
+          color: $darkColor3;
+        }
+      }
+    }
+  }
+}

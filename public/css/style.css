@@ -196,6 +196,48 @@ header {
             #blog .container ul li .inner-box .button:hover {
               color: #202020; }
 
+#contact {
+  background-color: #C5913F; }
+  #contact h1 {
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 5%;
+    line-height: 5%; }
+  #contact .container {
+    margin: 10% 0;
+    height: 60%; }
+    #contact .container form {
+      width: 500px;
+      margin-left: 10%; }
+      #contact .container form div input {
+        height: 30px;
+        width: 70%;
+        margin-bottom: 10px;
+        border: none;
+        border-bottom: 3px solid #202020;
+        background: #C5913F;
+        outline: none; }
+      #contact .container form ::placeholder {
+        color: #FAEDCD; }
+      #contact .container form div textarea {
+        margin-top: 20px;
+        width: 70%;
+        border: none;
+        background-color: #202020;
+        color: #FAEDCD; }
+      #contact .container form #submit {
+        margin-top: 20px;
+        width: 100px;
+        height: 30px;
+        border: none;
+        border-radius: 5px;
+        background-color: #202020;
+        color: #FAEDCD;
+        font-weight: bold; }
+        #contact .container form #submit:hover {
+          color: #C5913F; }
+
 body,
 html {
   margin: 0;
