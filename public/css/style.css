@@ -138,6 +138,64 @@ header {
   content: '';
   clear: both; }
 
+#blog {
+  background-color: #202020; }
+  #blog h1 {
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 5%;
+    line-height: 5%; }
+  #blog .container {
+    margin: 10% 0;
+    height: 60%;
+    position: relative; }
+    #blog .container ul {
+      height: 80%; }
+      #blog .container ul li {
+        float: left;
+        padding: 0;
+        width: calc(100% / 5);
+        height: 100%;
+        margin-left: 2%;
+        list-style: none;
+        text-align: center;
+        position: relative; }
+        #blog .container ul li:first-child {
+          margin-left: 5%; }
+        #blog .container ul li #date {
+          width: 50%;
+          background-color: #C5913F;
+          border: 1px solid #C5913F;
+          border-top-right-radius: 20px;
+          border-top-left-radius: 20px; }
+        #blog .container ul li img {
+          width: 100%;
+          height: 70%; }
+        #blog .container ul li .inner-box {
+          position: absolute;
+          width: 100%;
+          height: 30%;
+          bottom: 0;
+          left: 50%;
+          color: #FAEDCD;
+          background-color: transparent;
+          transform: translateX(-50%); }
+          #blog .container ul li .inner-box:hover {
+            color: #FAEDCD;
+            background-color: #202020;
+            opacity: 0.7; }
+          #blog .container ul li .inner-box .button {
+            margin: 0 auto;
+            border: 2px solid #C5913F;
+            border-radius: 5px;
+            background-color: #C5913F;
+            width: 50%;
+            color: #FAEDCD;
+            font-size: 0.9rem; }
+            #blog .container ul li .inner-box .button:hover {
+              color: #202020; }
+
 body,
 html {
   margin: 0;
