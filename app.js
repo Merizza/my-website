@@ -8,6 +8,9 @@ var nodemailer = require("nodemailer");
 
 /*==========Route==========*/
 var index = require("./routes/index");
+var about = require("./routes/about");
+var projects = require("./routes/projects");
+var blog = require("./routes/blog");
 var contact = require("./routes/contact");
 
 /*==========Initialize app==========*/
@@ -31,6 +34,9 @@ app.use(express.static(path.join(__dirname, "public")));
 
 /*==========Route files middleware==========*/
 app.use("/", index);
+app.use("/about", about);
+app.use("/projects", projects);
+app.use("/blog", blog);
 app.use("/contact", contact);
 
 /*==========Set port==========*/
