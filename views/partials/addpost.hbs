@@ -1,0 +1,24 @@
+<div class="wrapper">
+  <h1>Add Post</h1>
+  <form method="post" action="/posts/add" enctype="multipart/form-data">
+    <div>
+      <label for="title">Title:</label>
+      <input name="title" type="text">
+    </div>
+    <div>
+      <label for="category">Category</label>
+      <select name="category"></select>
+    </div>
+    <div>
+      <label for="body">Body</label>
+      <textarea name="body" id="body" cols="30" rows="10"></textarea>
+    </div>
+    <div>
+      <label for="image">Main Image:</label>
+      <input name="image" type="file">
+    </div>
+    <div>
+      <input type="submit" name="submit" value="Save">
+    </div>
+  </form>
+</div>
