@@ -9,8 +9,13 @@
   "author": "Merizza Khan",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "dotenv": "^5.0.1",
     "express": "^4.16.2",
     "express-handlebars": "^3.0.0",
-    "font-awesome": "^4.7.0"
+    "font-awesome": "^4.7.0",
+    "morgan": "^1.9.0",
+    "nodemailer": "^4.6.2"
   }
 }

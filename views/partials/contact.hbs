@@ -1,13 +1,13 @@
 <div class="wrapper" id="contact">
   <h1>Contact</h1>
   <div class="container">
-    <form>
+    <form method="post", action="contact/send">
       <div>
-        <input type="text" placeholder="First Name" required>
-        <input type="text" placeholder="Last Name" required>
+        <input type="text" name="firstName" placeholder="First Name">
+        <input type="text" name="lastName" placeholder="Last Name">
       </div>
       <div>
-        <input type="text" id="email" placeholder="Email" required>
+        <input type="text" id="email" name="email" placeholder="Email" required>
       </div>
       <div>
         <input type="text" placeholder="Subject">
