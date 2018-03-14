@@ -12,6 +12,7 @@ var about = require("./routes/about");
 var projects = require("./routes/projects");
 var blog = require("./routes/blog");
 var contact = require("./routes/contact");
+var posts = require("./routes/posts");
 
 /*==========Initialize app==========*/
 var app = express();
@@ -38,6 +39,7 @@ app.use("/about", about);
 app.use("/projects", projects);
 app.use("/blog", blog);
 app.use("/contact", contact);
+app.use("/posts", posts);
 
 /*==========Set port==========*/
 app.set("port", (process.env.PORT || 3000));
