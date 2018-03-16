@@ -4,9 +4,9 @@
     <ul class="clearfix">
       <li>
         <div id="date">
-          <span>25/12/2017</span>
+          <span>{{post.[0].date}}</span>
         </div>
-        <img src="image/post1.jpg" alt="post 1">
+        <a href="/post/{{post.[0]._id}}"><img src="image/uploads/{{post.[0].mainImageName}}" alt="post 1"></a>
         <div class="inner-box">
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           <div class="button">
@@ -55,3 +55,4 @@
     </ul>
   </div>
 </div>
+{{> footer}}

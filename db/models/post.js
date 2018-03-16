@@ -5,7 +5,7 @@ var PostSchema = new Schema({
   title: String,
   category: String,
   body: String,
-  date : { type: Date, default: Date.now },
+  date : String,
   mainImageName: String
 });
 

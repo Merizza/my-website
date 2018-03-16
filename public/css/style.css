@@ -306,6 +306,9 @@ nav {
         #footer #footer-social ul li a:hover {
           color: #C5913F; }
 
+#singlepost h1 {
+  color: red; }
+
 body,
 html {
   margin: 0;
