@@ -2,18 +2,21 @@
   <h1>Blog</h1>
   <div class="container">
     <ul class="clearfix">
-      <li>
-        <div id="date">
-          <span>{{post.[0].date}}</span>
-        </div>
-        <a href="/post/{{post.[0]._id}}"><img src="image/uploads/{{post.[0].mainImageName}}" alt="post 1"></a>
-        <div class="inner-box">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          <div class="button">
-            <span>Read more >>></span>
+      {{#posts}}
+        <li>
+          <div id="date">
+            <span>{{date}}</span>
           </div>
-        </div>
-      </li>
+          <a href="/post/{{_id}}"><img src="image/uploads/{{mainImageName}}" alt="post 1"></a>
+          <div class="inner-box">
+            <p>"{{{truncate_text body 90}}} ..."</p>
+            <div class="button">
+              <span>Read more >>></span>
+            </div>
+          </div>
+        </li>
+      {{/posts}}
+<!--
       <li>
         <div id="date">
           <span>25/12/2017</span>
@@ -52,6 +55,7 @@
           </div>
         </div>
       </li>
+-->
     </ul>
   </div>
 </div>

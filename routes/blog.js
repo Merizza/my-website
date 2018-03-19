@@ -10,11 +10,17 @@ var {Post} = require("../db/models/post.js");
 
 /*GET blog page*/
 router.get("/", function(req, res, next) {
-  Post.find({}, function(err, post) {
+  Post.find({}, function(err, posts) {
     if(err) throw err;
     
+    console.log(posts);
+    
      res.render("partials/blog", {
-        "post": post
+        "posts": posts,
+        "helpers": function(text, length) {
+          var shorten_text = text.substring(0, length);
+          return shorten_text;
+        }
      });
   });
 });
