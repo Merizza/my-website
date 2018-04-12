@@ -1,7 +1,18 @@
 <div class="wrapper" id="single-post">
-  <h1>{{post.title}}</h1>
-  <h3>Category: {{post.category}}</h3>
-  <h4>{{post.date}}</h4>
-  <img src="/image/uploads/{{post.mainImageName}}" alt="">
-  <p>{{post.body}}</p>
+  <nav>
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/about">About</a></li>
+      <li><a href="/projects">Projects</a></li>
+      <li><a href="/blog">Blog</a></li>
+      <li><a href="/contact">Contact</a></li>
+    </ul>
+  </nav>
+  <div id="content">
+    <h1>{{post.title}}</h1>
+    <h3>Category: {{post.category}}</h3>
+    <h4>{{post.date}}</h4>
+    <img src="/image/uploads/{{post.mainImageName}}" alt="">
+    <p>{{post.body}}</p>
+  </div>
 </div>

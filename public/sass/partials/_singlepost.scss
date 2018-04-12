@@ -1,4 +1,9 @@
 #single-post {
+  border: 1px solid blue;
+  #content {
+    border: 1px solid green;
+    width: 100%;
+  }
   img {
     width: 50%;
     height: auto;

@@ -17,12 +17,6 @@ var post = require("./routes/post");
 /*==========Initialize app==========*/
 var app = express();
 
-///*==========Shorten the post body text==========*/
-//app.locals.truncate_text = function(text, length) {
-//  var shorten_text = text.substring(0, length);
-//  return shorten_text;
-//}
-
 /*==========View engine==========*/
 app.set("views", path.join(__dirname, "views"));
 app.engine("hbs", hbs({
